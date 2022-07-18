@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;/*para que o padding seja o que foi definido sem alteração*/
+    font-family: 'Helvetica',sans-serif;   
+}
+
+/*CABEÇALHO*/
+
+header {
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;/*espaçamento interno*/
+    text-align: center;
+    border-bottom: #0f642f 3px solid;
+}
+
+/*Grid de produtos*/
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;/*definindo que o container vai ter 60% da tela do dispositivo*/
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;/*largura maxima do products container*/
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;/* tenta apresentar o maximo da imagem na area disponivel*/
+}
+
+#img-1 {
+    background-image: url('../img/tenis1.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+#img-2 {
+    background-image: url('../img/tenis2.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+#img-3 {
+    background-image: url('../img/tenis3.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+#img-4 {
+    background-image: url('../img/tenis4.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+#img-5 {
+    background-image: url('../img/tenis5.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+#img-6 {
+    background-image: url('../img/tenis6.jpg');
+    border-radius: 8px;
+    box-shadow: 13px 14px 18px -7px rgba(61,61,61,0.68);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+    border-left: 5px solid #0f642f;
+    padding-left: 7px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0f642f;
+}
+
+/* footer */
+footer {
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+    padding: 80px;
+}
